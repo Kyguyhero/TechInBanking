@@ -1,0 +1,93 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    background-color: white;
+    height: auto;
+    margin: 0;
+    padding: 1% 2%;
+    position: relative;
+    top: 0;
+    left: 0;
+    /*box-shadow: 0 0 10px #333333;*/
+    align-items: center;
+    text-align: center;
+}
+
+#title {
+    font-size: 2.5vw;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+#title h1 {
+    text-align: center;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    #title {
+        font-size: 4vw;
+    }
+}
+
+#navbar {
+    display: flex;
+    background-color: #333333;
+    box-shadow: 0 0 10px #333333;
+    justify-content: center;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    align-content: center;
+    z-index: 5;
+}
+
+.nav-tab {
+    background-color: #333333;
+    color: white;
+    border-right: 1px solid black;
+    text-decoration: none;
+    width: 99px;
+    height: 50px;
+    padding: 15px 0px; 
+    padding: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    z-index: 5;
+    transition: 0.2s linear;
+}
+
+#home.nav-tab {
+    border-left: 1px solid black;
+}
+
+.nav-tab.active {
+    background-color: black !important;
+}
+
+.nav-tab:hover {
+    background-color: #666666;
+    transition: 0.2s linear;
+}
+
+.content {
+    padding: 5%;
+}
+
+.content h1 {
+    text-align: center;
+}
