@@ -36,11 +36,11 @@
             <a href="future.html" class="nav-tab" id="future">Future</a>
         </div>
         <div class="container">
-            <img src="moneyWallpaper.jpg">
+            <img id="main" src="moneyWallpaper.jpg">
         </div>
 
         <div id="home" class="content">
-            <h1>Applicaton of Computers</h3>
+            <h1 id="headH1">Home</h1>
             <p>
                 Computers have transformed the banking industry, making it more
                 efficient, convenient, and secure for customers and allowing banks
@@ -52,7 +52,16 @@
                 that were once done manually, like account opening, deposit processing, loan 
                 approvals, and various transactions.
             </p>
-            
+            <p>
+                Despite making many improvement to the banking industry, computers have also 
+                made it more reliant on the internet as well as more vulnerable to hacking.
+            </p>
+            <p>
+                <b>The purpose of this page</b> is to highlight how computers have positiviely and 
+                negatively impacted the banking industry, and how computers will continue
+                to impact the sector in the future.
+            </p>
+            <img id="sub-img" src="transactions.png">
         </div>
 
     </body>
@@ -69,8 +78,16 @@
     <footer>
         <h2>Bibliography</h3>
         <div>
-            <a target="_blank" href="https://jackvanhees.com/what-is-bitcoin/">https://jackvanhees.com/what-is-bitcoin/</a>
-            <a href=""></a>
+            <a target="_blank" href="https://jackvanhees.com/what-is-bitcoin/">“What Is Bitcoin?” JackvanHees.Com, 20 Dec. 2021, jackvanhees.com/what-is-bitcoin/. <br><br></a>
+            <a target="_blank" href="https://www.tutorialspoint.com/computer_concepts/computer_concepts_basic_applications_of_computer.htm">“Basic Applications of Computer.” Tutorials Point, www.tutorialspoint.com/computer_concepts/computer_concepts_basic_applications_of_computer.htm.<br><br></a>
+            <a target="_blank" href="https://edubirdie.com/examples/advantages-and-disadvantages-of-technology-in-banking-sector/">"Advantages and Disadvantages of Technology in Banking Sector - Free Essay Example.” Edubirdie, edubirdie.com/examples/advantages-and-disadvantages-of-technology-in-banking-sector/.<br><br></a>
+            <a target="_blank" href="https://www.nerdwallet.com/article/investing/cryptocurrency">“What Is Cryptocurrency? A Guide for Beginners.” NerdWallet, www.nerdwallet.com/article/investing/cryptocurrency.</a>
+            <a target="_blank" href="https://www.forbes.com/advisor/banking/banking-trends-and-statistics/">Underwood, Jenn. “U.S. Consumer Banking Statistics 2023.” Forbes, 24 Mar. 2023, www.forbes.com/advisor/banking/banking-trends-and-statistics/.<br><br> </a>
+            <a target="_blank" href="https://www.bankrate.com/banking/digital-banking-trends-and-statistics">Bennett, René. “Digital Banking Trends in 2023.” Bankrate, www.bankrate.com/banking/digital-banking-trends-and-statistics.<br><br></a>
+            <a target="_blank" href="http://www.ijimt.org/vol9/791-M775.pdf">Kelvin Leong and Anna Sung - IJIMT, www.ijimt.org/vol9/791-M775.pdf.<br><br> </a>
+            <a target="_blank" href="https://go.morningconsult.com/rs/850-TAA-511/images/The-State-of-Consumer-Banking-and-Payments-H1-2023.pdf">The State of Consumer Banking & Payments H1 2023 - Go.Morningconsult.Com, go.morningconsult.com/rs/850-TAA-511/images/The-State-of-Consumer-Banking-and-Payments-H1-2023.pdf.<br><br></a>
+            <a target="_blank" href="https://morningconsult.com/2023/02/21/big-banks-face-uphill-battle-in-digital-wallet-wars/">Principato, Charlotte. “Big Banks Face an Uphill Battle in the Digital Wallet Wars.” Morning Consult, 16 Feb. 2023, morningconsult.com/2023/02/21/big-banks-face-uphill-battle-in-digital-wallet-wars/.<br><br> </a>
+            <a target="_blank" href="https://www.lightico.com/blog/consumer-study-details-how-traditional-banks-should-view-digital-only-banks/">Melamedov, Leor. “Consumer Study Details How Traditional Banks Should View Digital-Only Banks.” Lightico, 22 June 2020, www.lightico.com/blog/consumer-study-details-how-traditional-banks-should-view-digital-only-banks/.</a>
 
         </div>
     </footer>
@@ -186,11 +203,25 @@
             text-align: center;
         }
 
-        #home h1 {
+
+        #headH1 {
+            width: 100%;
             margin-top: 0px;
-            margin-bottom: 6%;
-            font-size: 4vw;
+            margin-bottom: 5%;
+            border: 1px black solid;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 0 5px #333333;
+            font-size: 3em;
+            background-color: lightgray;
         }
+
+        #home p {
+            margin-top: 0;
+            font-size: 1.5em;
+            padding: 10px 10%;
+        }
+
         .home {
             background-image: url("financeImg.jpg");
             background-size: 100%;
@@ -215,14 +246,17 @@
             box-shadow: 0 0 5px #333333;
         }
 
-        img {
+        #main {
             min-width: 100%;
-            max-width: 100%;
-            height: 0%;
+            max-width: 100%; 
             position: relative;
             margin: 0px;
             filter: brightness(70%);
             z-index: -1;
+        }
+
+        #sub-img {
+            width: 100%;
         }
 
         footer {
@@ -242,6 +276,8 @@
             text-decoration: none;
             color: white;
         }
+
+
 
     </style>
     

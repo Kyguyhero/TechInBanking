@@ -23,26 +23,58 @@
     </div>
 
     <div class="content">
-        <h1>Credit Cards</h1>
+        <h1 id="headH1"><b>Positives</b></h1>
+        <h2>Credit Cards</h2>
            <p>Credit cards have had a significant positive impact on the banking industry by making banking more accessible and convenient for consumers, enabling them to shop and manage their finances from the comfort of their own homes</p>
            <p>They provide a useful record of purchasing history, making it easier for consumers to manage their finances.</p>
            <p>Credit cards can offer fraud protection, reducing the risk of financial loss due to unauthorized, unwanted transactions.</p>
-        <h1>ATMs</h1>
-            <p>Example text</p>
-        <h1>Online Banking</h1>
+        <h2>Online Banking</h2>
             <p>Online banking has made managing bank accounts much easier, enabling customers to check their balances, transfer funds, and pay bills at their convenience, without having to visit a physical branch.</p>
             <p>Online banking provides real-time updates, and notification. This allows for reducing the likelihood of errors and discrepancies.</p>
             <p>It has accentuated online shopping, as it allows customers to make purchases and payments easily and securely. All while without having to go to an actual bank.</p>
-        <h1>Mobile Banking</h1>
+        <h2>Mobile Banking</h2>
             <p>Mobile Banking makes online banking easy, it incorporates aspects of online banking and can <br>
                 integrate it in an easy to use, new and innovative way of banking. While all the featured aspects may not be as complex as they are on online services that aren't mobile. </p>
             <p> A mobile banking app makes online banking easier for those who may not be familiar with new and modern banking technologies.</p>
             <p>Mobile Banking as well as Online Banking provide increased financical inclusion. Which grants people the ability for people to meet basic needs such as having clean water,a roof over your head, and a school to go to.</p>
+        <h2>Regulations</h2>
+            <p>The online banking world is subject to stringent regulations and restrictions to ensure the security and privacy of customers' financial information. Including encryption, verification services, and regular audits</p>
+            <p>Online banks impose strict rules on online banking institutions to prevent money laundering, fraud, and other illicit activities. As well as transaction monitoring systems, to detect and report suspicious transactions.</p>
+        <h2>Helping Businesses</h2>
+            <p>Online banking has streamlined financial transactions and reduced administrative overheads, saving businesses time and money.</p>
+            <p>Online banking gives businesses access to real-time financial information, allowing them to make informed decisions and improve financial management.</p>
+            <p>Online banking has expanded businesses' reach by enabling secure and convenient online payment options, facilitating global transactions and opening doors to new markets.</p>
     </div>
     
-    <div class="quiz>
-        
+    <div id="quiz">
+        <h3>Question 1</h3>
+        <p>filler text</p>
+        <input type="radio" name="question1"><br></input>
+        <input type="radio" name="question1" id="correct1"><br></input>
+        <input type="radio" name="question1"><br></input>
+        <input type="radio" name="question1"><br></input>
+        <h3>Question 2</h3>
+        <p>filler question</p>
+        <input type="radio" name="question2"><br></input>
+        <input type="radio" name="question2" ><br></input>
+        <input type="radio" name="question2"><br></input>
+        <input type="radio" name="question2" id="correct2"><br></input>
+        <input type="submit" name="submit" value="Submit" id="submitB" onclick="result()">
     </div>
+    
+
+    <script type="text/javascript">
+        function result() {
+            var score=0;
+            if (document.getElementById('correct1').checked){
+                score++;
+            }
+            if (document.getElementById('correct2').checked){
+                score++;
+            }
+            alert("Your score is: " + score + "/2");
+        }
+    </script>
 
     </body>
 </html>
