@@ -1,0 +1,23 @@
+Usability: 
+The usability of our website is very simple and efficient.  The user opens the website and is greeted with our home page title “Technology in the Banking Industry” and image that explains 
+what the sebsite is about. The user immediately sees and can access teh navigation bar that has tabs that explain what each page is about. The navigation bar sticks to the screen no matter 
+where the users scrolls, allowing for easy access to the other pages at any point on the page. 
+
+Educational value:
+Our website teaches users who are unfamiliar with online banking by teaching them about the positive impact of computers in the banking industry, the negatives of technology in the sector, 
+and what the future of the finance sector might look like. The user can then apply what they learned in a quiz at the bottom of each page. Our website is targeting users who are unfamiliar 
+with the technology in the finance world, no matter there background knowledge.  
+
+Interactivity:
+Our navigation bar allows for interactivity and it was designed only using HTML and CSS. We also added quizzes at the end of each page that test the user’s knowledge on what they just read 
+and learned about. This part was designed used HTML, CSS, and JavaScript.  After picking your answers in the quiz, the user can hit submit and an alert will tell what their score was.
+
+Aesthetics: 
+Our web page is very aesthetically pleasing. We have many pictures that are finance related and highlight what our site is about. We used a white background with dark colors to make the 
+website less distracting overall allowing the user to focus on the content of the website. It uses a common color theme with grey accents and colorful photos to keep the user intrigued and 
+stay on our page longer.  
+
+Special Effort:
+One aspect of the website that we worked really hard on was making the website responsive and mobile friendly.  We wanted to make sure the content of each page reacted smoothly to a change 
+in the browser window size and that users on mobile devices could read the page comfortably.  That includes adding an @media aspect in our CSS file when the screen or max width is less that 
+600 pixels. 
