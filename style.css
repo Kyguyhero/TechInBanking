@@ -47,6 +47,10 @@ body {
         padding: 5% !important;
     
     }
+
+    #submitB {
+        padding: 8% !important; 
+    }
 }
 
 #navbar {
@@ -92,6 +96,7 @@ body {
 
 .content {
     padding: 5%;
+    align-items: center;
 }
 
 .content h1 {
@@ -100,6 +105,7 @@ body {
 
 .content h2 { 
     text-align: center;
+    font-size: 30px;
 }
 
 .content h3 {
@@ -119,9 +125,13 @@ body {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 5px #333333;
-    font-size: 3em;
+    font-size: 4em;
     width: 100%;
     background-color: lightgray;
+}
+
+#coins {
+    text-align: center;
 }
 
 #quiz {
@@ -138,6 +148,11 @@ body {
 
 #quiz h3 {
     text-align: center;
+    font-size: 30px;
+}
+
+#quiz p {
+    font-size: 20px;
 }
 
 #submitB {
@@ -155,6 +170,7 @@ body {
 #submitB:hover {
     background-color: #666666;
     transition: 0.2s linear;
+    cursor: pointer;
 }
 
 input[type=radio] {
