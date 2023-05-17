@@ -16,7 +16,7 @@
     </div>
 
     <div id="navbar">
-        <a href="Home.html" class="nav-tab" id="home">Home</a>
+        <a href="index.html" class="nav-tab" id="home">Home</a>
         <a href="positives.html" class="nav-tab" id="pos">Positives</a>
         <a href="negatives.html" class="nav-tab active" id="neg">Negatives</a>
         <a href="future.html" class="nav-tab" id="future">Future</a>
@@ -33,6 +33,36 @@
             <p>Internet reliance also provides more opportunities for users to be vulnerable to cyber threats such as phishing, hackers. Which leads to privacy breaches and data leaks</p>
             <p>Online, whether by overdrafting or simply missing payments, it is simpler to overpay. Due to more consumers using the Buy Now Pay Later services made possible by online banking, there are now more missed payments.</p>
     </div>
+
+    <div id="quiz">
+        <h3>Question 1</h3>
+        <p>filler text</p>
+        <input class="ans" type="radio" name="question1">1<br></input>
+        <input class="ans" type="radio" name="question1" id="correct1">2<br></input>
+        <input class="ans" type="radio" name="question1">3<br></input>
+        <input class="ans" type="radio" name="question1">4<br></input>
+        <h3>Question 2</h3>
+        <p>filler question</p>
+        <input class="ans" type="radio" name="question2"><br></input>
+        <input class="ans" type="radio" name="question2" ><br></input>
+        <input class="ans" type="radio" name="question2"><br></input>
+        <input class="ans" type="radio" name="question2" id="correct2"><br></input>
+        <input type="submit" name="submit" value="Submit" id="submitB" onclick="result()">
+    </div>
+    
+
+    <script type="text/javascript">
+        function result() {
+            var score=0;
+            if (document.getElementById('correct1').checked){
+                score++;
+            }
+            if (document.getElementById('correct2').checked){
+                score++;
+            }
+            alert("Your score is: " + score + "/2");
+        }
+    </script>
 
     </body>
 </html>
